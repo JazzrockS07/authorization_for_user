@@ -1,0 +1,23 @@
+*.iml
+.idea/
+.git/
+/vendor/composer
+/vendor/phpmailer
+/vendor/psr
+composer.phar
+*.ipr
+*.iws
+/out/
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+composer.lock
+Thumbs.db
+
+#FrameWork:
+/skins/components/bower/*
+/config/config.php
+# Project exclude paths
+/skins/components/node_modules/

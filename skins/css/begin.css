@@ -1,0 +1,67 @@
+@charset "utf-8";
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #2C7ABF;
+}
+a:hover {
+  text-decoration: none;
+  color: #2C7ABF;
+}
+.clearfix:before,
+.clearfix:after,
+.header:before,
+.header:after,
+.header .col3:before,
+.header .col3:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after,
+.header:after,
+.header .col3:after {
+  clear: both;
+}
+.header {
+  max-width: 992px;
+  margin: auto;
+  border-bottom: 2px solid #d3d3d3;
+}
+.header .col1 {
+  float: left;
+  height: 110px;
+  width: 330px;
+  padding-top: 40px;
+}
+.header .col1 .tel {
+  font-size: 24px;
+  color: #3fcaa4;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 36px;
+}
+.header .col1 .adress {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #888888;
+}
+.header .col2 {
+  float: left;
+  height: 110px;
+  width: 332px;
+  text-align: center;
+  padding-top: 40px;
+}
+.header .col3 {
+  float: left;
+  height: 110px;
+  width: 330px;
+  padding-top: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #888888;
+}
+/*# sourceMappingURL=begin.css.map */
